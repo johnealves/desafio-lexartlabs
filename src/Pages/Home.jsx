@@ -1,18 +1,10 @@
-import { Button, FormControl, TextField } from "@material-ui/core";
 import React from "react";
+import SearchForm from "../Component/SearchForm";
 
 const Home = () => {
   return(
     <div>
-      <h1>Busca</h1>
-      <FormControl>
-        <TextField 
-          placeholder="Digite sua busca..."
-        />
-        <Button variant="contained" color="primary">
-          Search
-        </Button>
-      </FormControl>
+      <SearchForm />
     </div>
   )
 }

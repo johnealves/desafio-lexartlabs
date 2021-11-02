@@ -1,8 +1,8 @@
 import { Route, Switch } from 'react-router-dom';
-import './App.css';
 import Home from './Pages/Home';
+import './App.css';
 
-const App = () => {
+function App() {
   return (
     <div className="App">
       <Switch>
